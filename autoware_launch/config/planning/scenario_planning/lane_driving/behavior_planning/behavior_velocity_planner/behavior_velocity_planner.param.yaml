@@ -19,8 +19,8 @@
       # behavior_velocity_planner::VirtualTrafficLightModulePlugin
       - behavior_velocity_planner::NoStoppingAreaModulePlugin     # No stopping area module requires all the stop line. Therefore this modules should be placed at the bottom.
       - behavior_velocity_planner::StopLineModulePlugin           # Permanent stop line module should be after no stopping area
-      # behavior_velocity_planner::OcclusionSpotModulePlugin
-      # behavior_velocity_planner::RunOutModulePlugin
-      # behavior_velocity_planner::SpeedBumpModulePlugin
+      - behavior_velocity_planner::OcclusionSpotModulePlugin
+      - behavior_velocity_planner::RunOutModulePlugin
+      - behavior_velocity_planner::SpeedBumpModulePlugin
       - behavior_velocity_planner::OutOfLaneModulePlugin
-      # behavior_velocity_planner::NoDrivableLaneModulePlugin
+      - behavior_velocity_planner::NoDrivableLaneModulePlugin
